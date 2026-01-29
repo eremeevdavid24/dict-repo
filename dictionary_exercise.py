@@ -19,5 +19,15 @@ marks['Andrei'] = 9
 #    print(marks[mark])
 
 
-for key, value in marks.items():
-    print(key, value)
+#for key, value in marks.items():
+#    print(key, value)
+
+marks['Ion']   = 10
+marks['Maria'] = 10
+
+print(marks)
+
+if 'Ion' in marks:
+    print('Cheia exista.')
+else:
+    print('Cheia nu exista.')
